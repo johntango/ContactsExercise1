@@ -5,3 +5,7 @@
     { "name": "john", "email": "johnr@mit.edu" }
   ]
 }
+generate json file for contacts with name, email, and id fields and 10 entries
+  
+  { "contacts": [
+      { "name": "adam", "email": "  
