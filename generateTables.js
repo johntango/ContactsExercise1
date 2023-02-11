@@ -44,10 +44,13 @@ function getItems() {
     return items;
 }
 var customers = getCustomers();
-customers = console.log(JSON.stringify(customers));
-// write a json file with the generated data - customers.json take car
+var object = { "customers": customers };
 
-fs.writeFile('customers.json', JSON.stringify(customers), function (err) {
+// write a json file give a json object customers
+
+
+
+fs.writeFile('customers.json', JSON.stringify(object), function (err) {
     if (err) {
         console.log("Error" + err);
     }
