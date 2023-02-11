@@ -4,7 +4,8 @@
 		"vscode": {
 			"extensions": [
 				"GitHub.copilot-nightly",
-				"github.classroom"
+				"github.classroom",
+				"GitHub.copilot-labs"
 			]
 		}
 	}
